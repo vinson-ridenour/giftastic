@@ -1,0 +1,13 @@
+body {
+	font-family: 'Barrio', cursive;
+}
+
+.buttons {
+	background-color: lightblue;
+	width: 75px;
+}
+
+form {
+	margin-left: 500px;
+}
+
