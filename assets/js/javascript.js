@@ -33,7 +33,7 @@ $(document).ready(function() {
     $(document).on('click', ".buttons", function() { // this can be $(document).on('click'... as well)
     	$('#gifs-go-here').empty();
  		var topicText = $(this).attr('data-attribute');
- 		var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + encodeURIComponent(topicText) + '&api_key=dc6zaTOxFJmzC&limit=10';
+ 		var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + encodeURIComponent(topicText) + '&api_key=dc6zaTOxFJmzC&limit=10';
 	    $.ajax({
 	      url: queryURL,
 	      method: "GET"
